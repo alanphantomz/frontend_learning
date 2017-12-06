@@ -1,0 +1,106 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	color: black;
+	background-color: #deaf31;		
+}
+
+header.principal{
+	color: white;
+	padding: 15px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#332b00+0,8e5c11+50,c6b387+100 */
+	background: #332b00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #332b00 0%, #8e5c11 50%, #c6b387 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #332b00 0%,#8e5c11 50%,#c6b387 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #332b00 0%,#8e5c11 50%,#c6b387 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#332b00', endColorstr='#c6b387',GradientType=0 ); /* IE6-9 */
+}
+
+header.principal h1{
+	display: inline-block;
+	width: 50%;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+form{
+	
+	display: inline-block;
+}
+
+nav{
+	background-color:#c69615;
+	padding: 15px;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+nav ul li{
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+}
+aside.left{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+section#principal{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+
+section#principal p{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+section article img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+}
+
+aside.right{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+footer{
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#332b00+0,8e5c11+50,c6b387+100 */
+	background: #332b00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #332b00 0%, #8e5c11 50%, #c6b387 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #332b00 0%,#8e5c11 50%,#c6b387 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #332b00 0%,#8e5c11 50%,#c6b387 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#332b00', endColorstr='#c6b387',GradientType=0 ); /* IE6-9 */
+}
+
+footer a{
+	color: white;
+}
+
+p{
+	text-align: justify;
+}
+span#creado{
+	display: block;
+	margin: 15px;
+}

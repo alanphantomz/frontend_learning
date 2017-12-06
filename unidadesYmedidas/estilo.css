@@ -1,0 +1,104 @@
+/**********************/
+/**Medidas Relativas**/
+/*********************/
+/*20% mas grande del tamaño por defecto del sistema*/
+div#primero p{
+	font-size: 1.2em;
+	text-indent: 3em;/*tabulación parrafo*/
+}
+
+/*20% mas pequeño del tam. por defecto*/
+.normal #uno{
+	font-size: 0.8em;
+}
+
+/*Tamaño por defecto*/
+.normal #dos{
+	font-size: 1em;
+}
+
+/*50% mas pequeño del tam. por defecto*/
+.normal #tres{
+	font-size: .5em;
+}
+
+/*El tamaño de referencia para em y ex es su padre
+en este caso no especifica por lo que se toma
+el por defecto del navegador, todo cambiaria con esto:
+body{
+	font-size:10px;
+}
+
+donde el valor real para 1.2em seria: 1.2 x 10px = 12px;
+*/
+
+/*
+COMO SE HEREDAN ESTOS VALORES?
+Se hereda el valor REAL
+body {
+font-size: 12px;
+text-indent: 3em;
+}
+la propiedad q se hereda es: text-indent;
+se hereda -> 3 x 12 = 36px
+h1 { font-size: 15px }
+h1 por herencia tendria:
+text-indent:36px;
+*/
+/*
+PORCENTAJE OTRA MEDIDA RELATIVA
+Es lo mismo que em
+body { font-size: 1em; }
+h1 { font-size: 200%; == 2em}
+h2 { font-size: 150%; == 1.5em}
+*/
+/*
+Los porcentajes también se utilizan para establecer la anchura de los elementos:
+
+div#contenido { width: 600px; }
+div.principal { width: 80%; }
+
+<div id="contenido">
+<div class="principal">
+...
+</div>
+</div>
+En el ejemplo anterior, la referencia del valor 80% es la anchura de su elemento padre. Por tanto,
+el elemento
+*/
+
+/* PROBLEMAS COMUNES
+Por otra parte, uno de los problemas habituales cuando se utilizan unidades relativas es el
+problema de "el texto cada vez se ve más pequeño" o "el texto cada vez se ve más grande". El
+siguiente ejemplo muestra el primer caso:
+div { font-size: 0.9em; }
+<div>
+<p>Texto 1</p>
+<div>
+<p>Texto 2</p>
+<div>
+<p>Texto 3</p>
+</div>
+</div>
+</div>
+*/
+
+/**********************/
+/**Medidas Absolutas**/
+/*********************/
+/*pt es la que se usa mas frecuentemente sobre
+todo para imprimir documentos*/
+
+/**********************/
+/*******COLORES*******/
+/*********************/
+/*
+1. Por palabras clave.-
+maroon, red, orange, yellow, olive, purple, fuchsia
+white, lime, green, navy, blue, aqua, teal, black, silver
+gray
+
+2. RGB Decimal: rgb(71, 98, 176);
+3. RGB Porcentual: rgb(0%, 98%, 37%);
+4. RGB Hexadecimal: #425678;
+*/
